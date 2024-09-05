@@ -84,7 +84,7 @@ const App: React.FC = () => {
 
   return (
     <div className="calculator">
-      <img src="https://images.unsplash.com/photo-1533658905865-4a56e30b0410?ixid=M3w2MzIxNTd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1NjYyMzl8&ixlib=rb-4.0.3" alt="Heatmiser Logo" className="logo" />
+      <img src="https://upload.wikimedia.org/wikipedia/en/5/55/Bsd_daemon.jpg" alt="BSD Devil Logo" className="logo" />
       <div className="display">
         {loading ? <CircularProgress size={24} color="inherit" /> : display}
       </div>
@@ -112,9 +112,6 @@ const App: React.FC = () => {
       <StyledButton onClick={clear} className="key" style={{ gridColumn: 'span 4' }}>
         Clear
       </StyledButton>
-      <div className="attribution">
-        Photo by <a href="https://unsplash.com/photos/alta-wall-sign-gFMosWlaNY4" target="_blank" rel="noopener noreferrer">Unsplash</a>
-      </div>
     </div>
   );
 };
